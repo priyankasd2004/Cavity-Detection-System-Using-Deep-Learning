@@ -1,0 +1,13 @@
+# data.yaml for YOLOv8 Dental Disease Detection
+
+train: /content/drive/MyDrive/temp/train/images
+val: /content/drive/MyDrive/temp/test/images
+test: /content/drive/MyDrive/temp/valid/images
+
+nc: 4  # number of classes
+
+names:
+  0: Cavity
+  1: Prosthesis
+  2: Root Canal
+  3: Restoration
